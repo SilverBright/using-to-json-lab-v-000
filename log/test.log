@@ -39968,3 +39968,4 @@ Processing by ProductsController#show as JSON
   Parameters: {"id"=>"1304"}
   [1m[36mProduct Load (0.1ms)[0m  [1mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", 1304]]
 Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.1ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
