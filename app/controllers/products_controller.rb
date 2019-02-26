@@ -30,7 +30,7 @@ class ProductsController < ApplicationController
     end
   end
 
-  def data
+  def post_data
     product = Product.find(params[:id])
     # render json: ProductSerializer.serialize(product)
     render json: post.to_json(only: [:id, :name, :description, :inventory, :price])
